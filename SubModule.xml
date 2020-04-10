@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module>
+    <Name value="Delayed SubModule Support"/>
+    <Id value="DelayedSubModuleSupport"/>
+    <Version value="v0.0.1"/>
+    <SingleplayerModule value="true"/>
+    <MultiplayerModule value="true"/>
+    <Official value="false"/>
+    <DependedModules>
+        <DependedModule Id="Native"/>
+    </DependedModules>
+    <SubModules>
+        <SubModule>
+            <Name value="DelayedSubModuleSupport"/>
+            <DLLName value="DelayedSubModuleSupport.dll"/>
+            <SubModuleClassType value="DelayedSubModuleSupport.SubModule"/>
+            <Tags>
+                <Tag key="DedicatedServerType" value="none"/>
+                <Tag key="IsNoRenderModeElement" value="false"/>
+            </Tags>
+        </SubModule>
+    </SubModules>
+    <Xmls/>
+</Module>
